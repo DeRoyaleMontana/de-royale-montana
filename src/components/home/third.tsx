@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Third() {
   return (
     <div className="flex flex-col w-full gap-y-9 items-center px-16 py-16 bg-primary">
@@ -18,7 +20,7 @@ export default function Third() {
         </div>
         {/* End of Beyond Limits */}
 
-        <img src="/images/sanctuary.png" alt="Sanctuary" className="mt-15" />
+        <Image src="/images/sanctuary.png" width={551} height={392} alt="Sanctuary" className="mt-15" />
     </div>
   );
 }

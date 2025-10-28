@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 export default function Third(){
     return(
         <div className="flex flex-col gap-12 px-16  ">
 
             {/* Row 1 */}
             <div className="flex flex-col items-center gap-6">
-            <img src="/images/floral-design.svg" alt="floral-design" className="w-[181px]" />
+            <Image src="/images/floral-design.svg"  width={181.26} height={54.72} alt="floral-design" className="w-[181px]" />
             <div className="text-6xl text-accent font-medium font-beautique leading-tight -tracking-1">Top Nearby Attractions</div>
               {/* Divider */}
           <div className="flex flex-col gap-y-3">
@@ -28,7 +30,7 @@ export default function Third(){
 
                     {/* Inner Row 2 */}
                     <div className="flex flex-col items-center gap-10">
-                    <img src="/icons/floral-design2.svg" alt="floral-design" className="w-[145px]" />
+                    <Image src="/icons/floral-design2.svg" width={145} height={36} alt="floral-design" className="w-[145px]" />
                     <div className="w-full grid grid-cols-3 gap-8">
                         <div className="relative bg-[url('/images/fine-dining.png')] bg-cover bg-center overlay-gradient w-full h-[214px]"></div>
                         <div className="relative bg-[url('/images/fine-dining.png')] bg-cover bg-center overlay-gradient w-full h-[214px]"></div>
@@ -53,7 +55,7 @@ export default function Third(){
 
                     {/* Inner Row 2 */}
                     <div className="flex flex-col items-center gap-10">
-                    <img src="/icons/floral-design2.svg" alt="floral-design" className="w-[145px]" />
+                    <Image src="/icons/floral-design2.svg" width={145} height={36} alt="floral-design" className="w-[145px]" />
                     <div className="w-full grid grid-cols-3 gap-8">
                         <div className="relative bg-[url('/images/fine-dining.png')] bg-cover bg-center overlay-gradient w-full h-[214px]"></div>
                         <div className="relative bg-[url('/images/fine-dining.png')] bg-cover bg-center overlay-gradient w-full h-[214px]"></div>
@@ -81,7 +83,7 @@ export default function Third(){
 
                     {/* Inner Row 2 */}
                     <div className="flex flex-col items-center gap-10">
-                    <img src="/icons/floral-design2.svg" alt="floral-design" className="w-[145px]" />
+                    <Image src="/icons/floral-design2.svg" width={145} height={36} alt="floral-design" className="w-[145px]" />
                     <div className="w-full grid grid-cols-3 gap-8">
                         <div className="relative bg-[url('/images/fine-dining.png')] bg-cover bg-center overlay-gradient w-full h-[214px]"></div>
                         <div className="relative bg-[url('/images/fine-dining.png')] bg-cover bg-center overlay-gradient w-full h-[214px]"></div>
@@ -106,7 +108,7 @@ export default function Third(){
 
                     {/* Inner Row 2 */}
                     <div className="flex flex-col items-center gap-10">
-                    <img src="/icons/floral-design2.svg" alt="floral-design" className="w-[145px]" />
+                    <Image src="/icons/floral-design2.svg" width={145} height={36} alt="floral-design" className="w-[145px]" />
                     <div className="w-full grid grid-cols-3 gap-8">
                         <div className="relative bg-[url('/images/fine-dining.png')] bg-cover bg-center overlay-gradient w-full h-[214px]"></div>
                         <div className="relative bg-[url('/images/fine-dining.png')] bg-cover bg-center overlay-gradient w-full h-[214px]"></div>
@@ -134,7 +136,7 @@ export default function Third(){
 
                     {/* Inner Row 2 */}
                     <div className="flex flex-col items-center gap-10">
-                    <img src="/icons/floral-design2.svg" alt="floral-design" className="w-[145px]" />
+                    <Image src="/icons/floral-design2.svg" width={145} height={36} alt="floral-design" className="w-[145px]" />
                     <div className="w-full grid grid-cols-3 gap-8">
                         <div className="relative bg-[url('/images/fine-dining.png')] bg-cover bg-center overlay-gradient w-full h-[214px]"></div>
                         <div className="relative bg-[url('/images/fine-dining.png')] bg-cover bg-center overlay-gradient w-full h-[214px]"></div>
@@ -159,7 +161,7 @@ export default function Third(){
 
                     {/* Inner Row 2 */}
                     <div className="flex flex-col items-center gap-10">
-                    <img src="/icons/floral-design2.svg" alt="floral-design" className="w-[145px]" />
+                    <Image src="/icons/floral-design2.svg" width={145} height={36} alt="floral-design" className="w-[145px]" />
                     <div className="w-full grid grid-cols-3 gap-8">
                         <div className="relative bg-[url('/images/fine-dining.png')] bg-cover bg-center overlay-gradient w-full h-[214px]"></div>
                         <div className="relative bg-[url('/images/fine-dining.png')] bg-cover bg-center overlay-gradient w-full h-[214px]"></div>
@@ -187,7 +189,7 @@ export default function Third(){
 
                     {/* Inner Row 2 */}
                     <div className="flex flex-col items-center gap-10">
-                    <img src="/icons/floral-design2.svg" alt="floral-design" className="w-[145px]" />
+                    <Image src="/icons/floral-design2.svg" width={145} height={36} alt="floral-design" className="w-[145px]" />
                     <div className="w-full grid grid-cols-3 gap-8">
                         <div className="relative bg-[url('/images/fine-dining.png')] bg-cover bg-center overlay-gradient w-full h-[214px]"></div>
                         <div className="relative bg-[url('/images/fine-dining.png')] bg-cover bg-center overlay-gradient w-full h-[214px]"></div>
@@ -212,7 +214,7 @@ export default function Third(){
 
                     {/* Inner Row 2 */}
                     <div className="flex flex-col items-center gap-10">
-                    <img src="/icons/floral-design2.svg" alt="floral-design" className="w-[145px]" />
+                    <Image src="/icons/floral-design2.svg" width={145} height={36} alt="floral-design" className="w-[145px]" />
                     <div className="w-full grid grid-cols-3 gap-8">
                         <div className="relative bg-[url('/images/fine-dining.png')] bg-cover bg-center overlay-gradient w-full h-[214px]"></div>
                         <div className="relative bg-[url('/images/fine-dining.png')] bg-cover bg-center overlay-gradient w-full h-[214px]"></div>

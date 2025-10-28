@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Third()
 {
     return(
@@ -13,7 +15,7 @@ export default function Third()
                         </div>
 
                         <div className="font-mona text-justify text-xl">
-                        To be South India's most cherished luxury escape, seamlessly blending regal comfort with the untamed beauty of the Ghats — where guests rediscover what it means to truly relax, reconnect, and rejuvenate.
+                        To be South India&apos;s most cherished luxury escape, seamlessly blending regal comfort with the untamed beauty of the Ghats — where guests rediscover what it means to truly relax, reconnect, and rejuvenate.
                         </div>
                     </div>
                     <div className="w-[40%] bg-[url('/images/fine-dining.png')] bg-cover bg-center "></div>
@@ -54,10 +56,10 @@ export default function Third()
 
           <div className="flex flex-col items-center gap-4">
           <div className="text-accent uppercase text-base font-semibold">our mission is simple</div>
-          <div className=" text-center text-4xl italic font-light">"To make every guest feel like royalty — naturally."</div>
+          <div className=" text-center text-4xl italic font-light">&quot;To make every guest feel like royalty — naturally.&quot;</div>
           
           </div>
-          <img className="w-[910px] h-[558px] object-cover object-center" src="/images/fine-dining.png" alt="" />
+          <Image className="w-[910px] h-[558px] object-cover object-center" src="/images/fine-dining.png" alt="" width={910} height={558} />
             </div>
             {/* End of Row 2 */}
         </section>

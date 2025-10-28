@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -45,7 +46,7 @@ export default function Footer() {
 
           {/* Newsletter and Logo */}
           <div className="flex flex-col items-center  w-1/2 p-16 gap-y-9">
-          <img src="/images/footer-logo.png" alt="logo" className="w-[250px] h-[115px]" />
+          <Image src="/images/footer-logo.png" alt="logo" width={250} height={115} className="w-[250px] h-[115px]" />
           <div className="flex flex-col gap-y-8">
             {/* Newsletter */}
             <div className="flex flex-col gap-y-4">

@@ -1,4 +1,5 @@
 import Button from '../ui/Button';
+import Image from "next/image";
 
 export default function Fourth() {
   return (
@@ -17,7 +18,7 @@ export default function Fourth() {
             <div className="flex flex-col  items-start justify-end gap-y-6 border border-accent w-full h-full p-10">
               <div className=" text-5xl text-secondary font-beautique font-medium z-10 border-l-4 border-accent pl-6">Suite Room</div>
               <div className="flex justify-start gap-x-6 z-10">
-                <img src="/icons/people.svg" alt="People" />
+                <Image src="/icons/people.svg" width={24} height={24} alt="People" />
                 <div className="text-accent font-mona text-base uppercase font-semibold">2 People</div>
               </div>
             </div>
@@ -36,7 +37,7 @@ export default function Fourth() {
             <div className="flex flex-col  items-start justify-end gap-y-6 border border-accent w-full h-full p-10">
               <div className=" text-5xl text-secondary font-beautique font-medium z-10 border-l-4 border-accent pl-6">Suite Room</div>
               <div className="flex justify-start gap-x-6 z-10">
-                <img src="/icons/people.svg" alt="People" />
+                <Image src="/icons/people.svg" width={24} height={24} alt="People" />
                 <div className="text-accent font-mona text-base uppercase font-semibold">2 People</div>
               </div>
             </div>
@@ -60,7 +61,7 @@ export default function Fourth() {
             <div className="flex flex-col  items-start justify-end gap-y-6 border border-accent w-full h-full p-10">
               <div className=" text-5xl text-secondary font-beautique font-medium z-10 border-l-4 border-accent pl-6">Suite Room</div>
               <div className="flex justify-start gap-x-6 z-10">
-                <img src="/icons/people.svg" alt="People" />
+                <Image src="/icons/people.svg" width={24} height={24} alt="People" />
                 <div className="text-accent font-mona text-base uppercase font-semibold">2 People</div>
               </div>
             </div>
@@ -79,7 +80,7 @@ export default function Fourth() {
             <div className="flex flex-col  items-start justify-end gap-y-6 border border-accent w-full h-full p-10">
               <div className=" text-5xl text-secondary font-beautique font-medium z-10 border-l-4 border-accent pl-6">Suite Room</div>
               <div className="flex justify-start gap-x-6 z-10">
-                <img src="/icons/people.svg" alt="People" />
+                <Image src="/icons/people.svg" width={24} height={24} alt="People" />
                 <div className="text-accent font-mona text-base uppercase font-semibold">2 People</div>
               </div>
             </div>

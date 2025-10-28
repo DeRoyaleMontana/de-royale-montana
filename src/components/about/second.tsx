@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Second()
 {
     return(
@@ -5,8 +7,8 @@ export default function Second()
             {/* Row 1 */}
             <div className="lg:max-w-5xl flex flex-col items-center justify-center gap-4">
                 <div className="text-accent uppercase text-base font-semibold">About us</div>
-                <img className="self-start pl-20" src="/icons/quote.svg" alt="Quote Icon" />
-                <div className="mt-5  text-accent text-center text-4xl italic font-light">Luxury is not a thing, it's a feeling — and we make sure you feel it in every moment.</div>
+                <Image className="self-start ml-20" src="/icons/quote.svg" alt="Quote Icon" width={98.5} height={64} />
+                <div className="mt-5  text-accent text-center text-4xl italic font-light">Luxury is not a thing, it&apos;s a feeling — and we make sure you feel it in every moment.</div>
             
             </div>
             {/* End of Row 1 */}

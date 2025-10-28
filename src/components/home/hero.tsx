@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <div className="h-screen relative overflow-hidden flex flex-col items-center p-14">
@@ -24,7 +26,7 @@ export default function Hero() {
         <div className="flex flex-col items-center gap-y-8 w-full">
         <button className="flex items-center gap-5 bg-primary/70 backdrop-blur-lg rounded-full pr-7">
             <div className="uppercase bg-secondary text-primary rounded-full px-14 py-6">Book Now</div>
-            <img src="/icons/Arrow.svg" alt="Arrow Right" />
+            <Image src="/icons/Arrow.svg" width={16} height={16} alt="Arrow Right" />
         </button>
 
         <span className="p-4 pt-4 pb-12 rounded-full bg-primary/70 backdrop-blur-lg">

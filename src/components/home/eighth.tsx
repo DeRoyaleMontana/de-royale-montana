@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Button from "../ui/Button";
 
 export default function Eighth() {
@@ -13,7 +14,7 @@ export default function Eighth() {
 
         {/* Column 2 */}
         <div className="w-1/3 flex flex-col items-center gap-y-6">
-        <img src="/images/floral-design.svg" alt="floral-design" className="w-[181px]" />
+        <Image src="/images/floral-design.svg" width={181} height={54.72} alt="floral-design" className="w-[181px]" />
         <div className="w-full h-[650px] bg-[url('/images/fine-dining.png')] bg-cover bg-center"></div>
         </div>
         {/* End of Column 2 */}

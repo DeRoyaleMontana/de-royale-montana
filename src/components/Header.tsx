@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Header() {
@@ -25,7 +26,7 @@ export default function Header() {
 
         {/* Logo */}
         <div className='pl-7 py-3 '>
-          <img src="/images/logo.png" alt="logo" className='w-auto' />
+          <Image src="/images/logo.png" alt="logo" width={163.5} height={75} className='w-auto' />
         </div>
         {/* End of Logo */}
         </div>

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Sixth(){
     return(
         <div className="flex flex-col items-center gap-16 p-16 ">
@@ -21,7 +23,7 @@ export default function Sixth(){
 
             {/* Row 3 */}
             <div className="flex flex-col items-center gap-9 font-mona">
-                <img src="/images/floral-design.svg" alt="Floral Design" />
+                <Image src="/images/floral-design.svg" width={181.26} height={54.72} alt="Floral Design" />
                 <div className="text-4xl text-center text-text font-light">De Royale Montana is more than a destination. It’s a retreat for those who seek the rare and the real.</div>
                 <div className="text-base text-accent uppercase font-semibold">Welcome to your sanctuary — where luxury breathes, and nature listens.</div>
             </div>

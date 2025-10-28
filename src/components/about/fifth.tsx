@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 export default function Fifth()
 {
     return(
         <div className="flex justify-between gap-31 p-16 bg-accent font-mona">
-            <img src="/icons/white-left-arrow.svg" alt="Left Arrow" />
+            <Image src="/icons/white-left-arrow.svg" width={64} height={64} alt="Left Arrow" />
             <div className=" flex gap-9">
                 {/* Card */}
                 <div className="flex flex-col gap-9">
@@ -10,7 +12,7 @@ export default function Fifth()
                     <div className="flex flex-col gap-9 bg-secondary p-9">
                         {/* Inner First Row */}
                     <div className="flex flex-col gap-6">
-                    <img className="max-w-[80px]" src="/icons/quote.svg" alt="Quote Icon" />
+                    <Image className="max-w-[80px]" src="/icons/quote.svg" alt="Quote Icon" width={98.5} height={64} />
                     <div className="text-xl text-text font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                     </div>
                     {/* End of Inner First Row */}
@@ -38,7 +40,7 @@ export default function Fifth()
                     <div className="flex flex-col gap-9 bg-secondary p-9">
                         {/* Inner First Row */}
                     <div className="flex flex-col gap-6">
-                    <img className="max-w-[80px]" src="/icons/quote.svg" alt="Quote Icon" />
+                    <Image className="max-w-[80px]" src="/icons/quote.svg" alt="Quote Icon" width={98.5} height={64} />
                     <div className="text-xl text-text font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
                     </div>
                     {/* End of Inner First Row */}
@@ -63,7 +65,7 @@ export default function Fifth()
                 
                 
             </div>
-            <img src="/icons/white-right-arrow.svg" alt="Right Arrow" />
+            <Image src="/icons/white-right-arrow.svg" alt="Right Arrow" width={64} height={64} />
         </div>
     );
 }

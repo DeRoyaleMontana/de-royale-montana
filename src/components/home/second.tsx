@@ -1,9 +1,11 @@
+import Image from "next/image";
+
 export default function Second() {
   return (
     <div className="flex flex-col gap-y-9 items-center px-16 py-16 bg-primary">
 
       <div className="flex flex-col items-center gap-y-4">
-        <img src="/icons/resort.svg" alt="Resort" />
+        <Image src="/icons/resort.svg" width={72} height={72} alt="Resort" />
         <div className="text-secondary text-xl uppercase font-mona font-light">Our Resort</div>
       </div>
       <div className="flex flex-col items-center gap-y-4 text-center">
