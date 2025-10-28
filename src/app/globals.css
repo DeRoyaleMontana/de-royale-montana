@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Beautique Display Condensed';
+  src: url('/fonts/Beautique Display Condensed.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-primary: #182B21;
+  --color-accent: #AF8D57;
+  --color-secondary: #FFFBF4;
+  --color-text: #151515;
+}
+
+@layer utilities {
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  .overlay-gradient::before {
+    @apply absolute inset-0 content-[''] bg-[linear-gradient(180deg,rgba(0,0,0,0)_0%,rgba(0,0,0,0.4)_100%)];
+  }
+}
+
+.font-mona {
+  font-family: 'Mona Sans', sans-serif;
+}
+
+.font-beautique {
+  font-family: 'Beautique Display Condensed', serif;
+}
+
+body {
+  color: var(--color-text);
+  background: var(--color-secondary);
+}
