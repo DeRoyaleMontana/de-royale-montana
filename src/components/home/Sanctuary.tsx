@@ -182,7 +182,7 @@ export default function Sanctuary() {
       {/* Main scaling image - z-1 */}
       <Image
         ref={imageRef}
-        src="/images/home/luxury.webp"
+        src="/images/home/reception.webp"
         width={687}
         height={489}
         alt="Luxury"
